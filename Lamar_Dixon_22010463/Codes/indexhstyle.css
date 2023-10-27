@@ -1,0 +1,54 @@
+
+
+.nav-container {
+    background-color: #000; 
+}
+nav {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00aaff; 
+}
+body {
+     margin: 0;
+    padding: 0;
+    background-image:url(https://i.pinimg.com/564x/96/6d/d0/966dd094f8f12ae1286c75953ae2c964.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.Welcome{
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+	
+.me{
+	max-width: 250px; 
+  	height: 250px;
+	border: 5px solid #ffffff;
+  	display: block; 
+  	margin: 0 auto;
+}
+html{
+	
+	scroll-behavior: smooth;
+}
